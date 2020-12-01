@@ -9,7 +9,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --port 3001"
+    "start": "node ./server.js",
+    "server:static" : "json-server --watch ./db.json --port 8080",
+    "server" : "node ./server.js"
   },
   "keywords": [],
   "author": "",
